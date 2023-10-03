@@ -1,0 +1,18 @@
+# My first calculator in python
+first = input("enter your first number:")
+operator = input("enter operator (+,-,*,/,):")
+secend=input("enter your secend number:")
+
+first=int(first)
+secend=int(secend)
+
+if operator == '+':
+    print("the answer is:" + str(first+secend))
+elif operator == '-':
+    print("the answer is:" + str(first-secend))
+elif operator == '*':
+    print("the answer is:" + str(first*secend))
+elif operator == '/':
+    print("the answer is:" + str(first/secend))
+else:
+    print("Invalid operation"+"   operator galath daba di yaar thune")
